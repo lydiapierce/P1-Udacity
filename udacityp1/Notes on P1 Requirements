@@ -1,0 +1,45 @@
+You will be provided a design mockup as a PDF-file and must replicate that design in HTML and CSS. 
+
+ responsive website that will display images, descriptions and links to each of the portfolio projects
+
+ continue tweaking and making customizations to the design to personalize it 
+
+
+notes on project requirements
+
+design - dom tree rep page content - elements semantic tags, grid based layout
+
+responsive - responsively designed, renders appropriately, required components 3 req devices - ipad, nexus 5 phone, laptop
+
+separation of concerns - portfolio separates structure (HTML) from design/style (CSS)
+
+code quality - code is formatted with consistent, logical, easy to read formatting (style guide)
+
+exceeds - personalizes, adds functionality
+
+
+   1. Download the design mockup file from the Downloadables section to your lower right hand corner and review it.
+
+   2.  Identify the various boxes you will need to build in order to recreate this design.
+
+    3. Write your HTML and CSS files, continue to iterate until your work is representative of the design mockup.
+
+   4.  Take the time to personalize your portfolio with custom colors, additional content and your own images.
+
+   5.  Validate your HTML and CSS against the W3C's Validators. Note: the validators consider the following errors, whereas Udacity accepts these errors as acceptable:
+
+        HTML5: Bad value X-UA-Compatible for attribute http-equiv on element meta when using the X-UA-Compatible meta tag.
+
+        CSS3: Property [some property here] is an unknown vendor extension when using vendor prefixed properties (like -moz-box-sizing).
+
+BOOTSTRAP GRID SYSTEM:
+
+- rows placed within a .container or .container-fluid
+- use rows to create horizontal groups of columns
+- content placed within columns, and only columns may be immediate children of rows
+
+to check your rows add:
+
+* {
+    border: 1px solid red !important;
+}
